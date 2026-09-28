@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/jasleenkaur/Desktop/ios-agent/.claude/hooks/check_python_syntax.sh",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
